@@ -57,3 +57,20 @@ main{
 .title{
 	margin: 15px 0px 5px;
 }
+
+@media screen and (max-width: 768px){
+main{
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	}
+.box{
+	margin-bottom: 20px;
+	margin-right: 0;
+	width: 100%;
+	}
+.box:last-child{
+	margin-bottom: 0;
+	width: 100%;
+	}
+}
